@@ -1,0 +1,20 @@
+.wrapPage{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.wrapCards{
+    background-color: yellow;
+    padding-top: 1vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding-bottom: 3rem;
+}

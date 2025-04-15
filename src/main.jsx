@@ -15,6 +15,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import Calcs from './calcs.jsx';
 import Media from './Media.jsx';
 import Imc from './Imc.jsx';
+import Req from './Req.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
   {
     path: "/imc",
     element: <Imc/>,
+  },
+  {
+    path: "/requisicao",
+    element: <Req/>,
   },
 
 ]);

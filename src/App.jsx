@@ -32,7 +32,7 @@ const handleZap = () => {
 }
   return (
     <>
-     <Menu option01='sessão 01' option02='sessão 02' option03='Contato' option04= 'calcs'></Menu>
+     <Menu option01='sessão 01' option02='sessão 02' option03='Contato' option04= 'calcs' option05= 'media' option06= 'imc' ></Menu>
      <main>
       <section id="s1">
         <h2>sessao 1</h2>
